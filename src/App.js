@@ -10,7 +10,7 @@ class App extends Component {
     super(props);
     this.state = {
       todos: [],
-      newTodo: ''
+      newTodo: ""
     };
     this.handleSubmit = this.handleSubmit.bind(this);
   }
